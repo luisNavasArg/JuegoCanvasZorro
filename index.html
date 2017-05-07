@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>
+				El zorro y la gallina
+			</title>
+			<meta charset="utf-8">
+			<script src="js/javaScript.js"></script>
+			<style media="screen">
+			body{
+				background-color:LightBlue;
+			}
+	      #canvas{
+	        position: absolute;
+	        top:30px;
+	        left: 300px;
+					z-index: 10;
+
+	        }
+				#canvas2{
+					position: absolute;
+					top: 30px;
+					left: 300px;
+					z-index: 2;
+					opacity: 0.3;
+				}
+
+	    </style>
+		</head>
+		<body onload="tablero.dibujarTablero();">
+		<h1>El zorro y <br>la gallina</h1>
+
+		<canvas id="canvas" width="850" height="850"></canvas>
+<canvas id="canvas2" width="850" height="850"></canvas>
+		</body>
+</html>
